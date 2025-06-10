@@ -14,7 +14,7 @@ const sectionVariants = {
 const plans = [
   {
     name: 'Starter',
-    price: '$9',
+    price: '₹9',
     period: 'month',
     features: [
       'Up to 10 microgreen varieties',
@@ -26,7 +26,7 @@ const plans = [
   },
   {
     name: 'Pro',
-    price: '$19',
+    price: '₹19',
     period: 'month',
     features: [
       'Up to 30 microgreen varieties',

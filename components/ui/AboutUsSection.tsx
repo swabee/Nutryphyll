@@ -54,7 +54,7 @@ export function AboutUsSection() {
 
         {/* Text content */}
         <p className="relative z-10 p-12 text-green-900 text-base sm:text-lg leading-relaxed bg-[#f9fced]/70">
-          At Tiny Leaves, we believe in nurturing health through nature. Our microgreens are
+          At Nutryphyll, we believe in nurturing health through nature. Our microgreens are
           sustainably grown with care, harvested daily to ensure maximum freshness and nutrition.
           We’re committed to eco-friendly farming practices and delivering the highest quality produce
           right to your plate. Join us in bringing wellness, flavor, and sustainability together.
