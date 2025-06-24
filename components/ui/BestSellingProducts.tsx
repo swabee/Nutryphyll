@@ -57,7 +57,7 @@ export default function BestSellingProducts() {
   };
 
   return (
-    <div className="py-10 text-center bg-white">
+    <div className="py-10 text-center bg-white" id="best-selling">
       <h2 className="text-3xl font-bold text-gray-800 mb-4">Best Selling Products</h2>
       <div className="flex justify-center mb-6">
         <Image src="./logo_best_selling.png" alt="leaf" width={60} height={60} />

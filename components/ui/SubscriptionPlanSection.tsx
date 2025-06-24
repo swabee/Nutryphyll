@@ -38,7 +38,7 @@ export default function SubscriptionPlanSection() {
   }
 
   return (
-    <section className="bg-white py-20 px-4 sm:px-8 text-center">
+    <section className="bg-white py-20 px-4 sm:px-8 text-center" id="subscription">
       <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-10">
         Subscription Plan
       </h2>
