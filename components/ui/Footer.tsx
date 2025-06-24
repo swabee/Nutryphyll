@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion'
 import {
-    FaEnvelope,
-    FaFacebookF,
-    FaInstagram,
-    FaLinkedinIn,
-    FaTwitter,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
 } from 'react-icons/fa'
 
 const footerVariants = {
@@ -61,7 +61,7 @@ export function Footer() {
               <FaTwitter size={22} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/nutryphyll?igsh=MTVmZG9oMTN0dzIyYw=="
               aria-label="Instagram"
               className="hover:text-lime-400 transition-colors"
               target="_blank"
@@ -171,11 +171,11 @@ export function Footer() {
                   href="mailto:support@freshgreens.com"
                   className="hover:text-lime-400 transition-colors"
                 >
-                  support@freshgreens.com
+                  support@Nutryphyll.com
                 </a>
               </li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Green St, Farmville, USA</li>
+              <li>+91 9633581223</li>
+              <li>Kerala, India</li>
             </ul>
           </div>
         </nav>
@@ -183,7 +183,7 @@ export function Footer() {
 
       {/* Copyright */}
       <div className="mt-16 border-t border-green-800 pt-8 text-center text-green-400 select-none text-sm sm:text-base">
-        &copy; {new Date().getFullYear()} FreshGreens. All rights reserved.
+        &copy; {new Date().getFullYear()} Xelofast. All rights reserved.
       </div>
     </motion.footer>
   )

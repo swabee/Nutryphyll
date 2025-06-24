@@ -15,7 +15,7 @@ export function AboutUsSection() {
   return (
 <section
   id="about-us"
-  className="relative bg-[#f9fced] min-h-screen py-32 px-6 sm:px-12 flex flex-col justify-center items-center overflow-hidden scroll-mt-24"
+  className="relative bg-white min-h-screen py-32 px-6 sm:px-12 flex flex-col justify-center items-center overflow-hidden scroll-mt-24"
 >
 
       {/* Heading & Subheading outside bg image */}

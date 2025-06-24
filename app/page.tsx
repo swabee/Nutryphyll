@@ -2,19 +2,21 @@
 
 import HeroSection from "@/components/hero-section";
 import { AboutUsSection } from "@/components/ui/AboutUsSection";
+import BestSellingProducts from "@/components/ui/BestSellingProducts";
 import { FeaturesSection } from "@/components/ui/FeaturesSection";
 import { Footer } from "@/components/ui/Footer";
-import { PricingPlanSection } from "@/components/ui/PricingPlanSection";
+import SubscriptionPlanSection from "@/components/ui/SubscriptionPlanSection";
 import { WhyUsSection } from "@/components/ui/WhyUSSection";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <BestSellingProducts/>
       <FeaturesSection />
       <AboutUsSection />
       <WhyUsSection />
-      <PricingPlanSection/>
+      <SubscriptionPlanSection/>
       <Footer/>
     </>
   );

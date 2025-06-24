@@ -10,7 +10,16 @@ import {
   Sun,
 } from 'lucide-react'
 
-const features = [
+const features = [  {
+    title: 'All India Delivery',
+    description: 'We deliver fresh microgreens to every corner of India.',
+    icon: <Leaf size={22} className="text-lime-400 rotate-45" />,
+  },
+    {
+    title: 'Safe & Certified',
+    description: 'Our greens meet strict food safety standards.',
+    icon: <ShieldCheck size={22} className="text-lime-400" />,
+  },
   {
     title: 'Fresh Microgreens',
     description: 'Harvested daily to deliver fresh and nutritious greens.',
@@ -36,11 +45,8 @@ const features = [
     description: 'Grown in natural light for maximum taste and quality.',
     icon: <Sun size={22} className="text-lime-400" />,
   },
-  {
-    title: 'Safe & Certified',
-    description: 'Our greens meet strict food safety standards.',
-    icon: <ShieldCheck size={22} className="text-lime-400" />,
-  },
+
+
 ]
 
 // Animation variants
@@ -61,7 +67,7 @@ const cardVariants = {
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="bg-[#f9fced] py-32 px-6 sm:px-12 flex flex-col justify-start items-center">
+    <section id="features" className="bg-white py-32 px-6 sm:px-12 flex flex-col justify-start items-center">
       
       <div className="max-w-7xl mx-auto w-full">
         {/* Subheading */}

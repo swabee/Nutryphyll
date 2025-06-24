@@ -18,6 +18,12 @@ const navItems = [
 ];
 
 export const HeroHeader = () => {
+   const sendWhatsApp = () => {
+    const message = `Hi, I'd like to take your service . Please let me know more details.`;
+    const url = `https://wa.me/919633581223?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  }
+
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const drawerVariants = {
@@ -67,7 +73,9 @@ export const HeroHeader = () => {
           {/* Buttons */}
           <div className='flex items-center space-x-4'>
             <div className='hidden md:block'>
-              <Button className='bg-lime-300 text-green-950 hover:bg-lime-400 text-sm px-4 py-2'>
+              <Button 
+              onClick={() => sendWhatsApp()}
+              className='bg-lime-300 text-green-950 hover:bg-lime-400 text-sm px-4 py-2'>
                 Contact Us
               </Button>
             </div>
@@ -124,7 +132,7 @@ export const HeroHeader = () => {
 
               <Button
                 className='bg-lime-300 text-green-950 hover:bg-lime-400 text-base px-4 py-3'
-                onClick={() => setDrawerOpen(false)}>
+                onClick={() =>sendWhatsApp() }>
                 Contact Us
               </Button>
             </motion.aside>

@@ -60,7 +60,7 @@ export function WhyUsSection() {
 
   return (
     <section
-     id="why-us" className="relative bg-[#f9fced] min-h-screen py-36 px-8 sm:px-16 flex flex-col justify-center items-center overflow-hidden"
+     id="why-us" className="relative bg-white min-h-screen py-36 px-8 sm:px-16 flex flex-col justify-center items-center overflow-hidden"
     >
       {/* Heading & Subheading outside bg image */}
       <div className="relative z-20 text-center mb-16 w-full max-w-7xl">
