@@ -7,23 +7,30 @@ const products = [
   {
     id: 1,
     name: "Beetroot Microgreens",
-    weight: "50gm",
+    weight: "100gm",
     price: 250,
     imageUrl: "./beet_root_micro.jpg",
   },
   {
     id: 2,
     name: "Purple Radish",
-    weight: "50gm",
+    weight: "100gm",
     price: 200,
     imageUrl: "./raddish_micro.jpg",
   },
   {
     id: 3,
     name: "Sunflower Shoots",
-    weight: "50gm",
+    weight: "100gm",
     price: 180,
     imageUrl: "./microgreensunflower.jpg",
+  },
+    {
+    id: 4,
+    name: "White Radish",
+    weight: "100gm",
+    price: 150,
+    imageUrl: "./white_raddish.jpg",
   },
 ];
 
