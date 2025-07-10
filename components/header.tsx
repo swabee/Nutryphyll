@@ -21,7 +21,7 @@ const navItems = [
 export const HeroHeader = () => {
    const sendWhatsApp = () => {
     const message = `Hi, I'd like to take your service . Please let me know more details.`;
-    const url = `https://wa.me/919633581223?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/919495351223?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   }
 
