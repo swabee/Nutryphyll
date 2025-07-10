@@ -103,7 +103,7 @@ const cardVariants = {
 export default function BestSellingProducts() {
   const sendWhatsApp = (productName: string) => {
     const message = `Hi, I'm interested in buying *${productName}*. Please provide more details.`;
-    const url = `https://wa.me/919633581223?text=${encodeURIComponent(
+    const url = `https://wa.me/919495351223?text=${encodeURIComponent(
       message
     )}`;
     window.open(url, "_blank");
